@@ -21,7 +21,7 @@ nodeos \
 --verbose-http-errors \
 --enable-stale-production \
 --chain-state-db-size-mb 4096 \
---p2p-peer-address 127.0.0.1:9876 \
+--p2p-peer-address 54.251.174.97:9876 \
 >> $DATADIR"/nodeos.log" 2>&1 & \
 echo $! > $DATADIR"/eosd.pid"
 
